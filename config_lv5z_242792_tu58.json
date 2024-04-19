@@ -1,0 +1,36 @@
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+false + 23
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple / kiwi
+
+const reverseString = str => str.split("").reverse().join("");
+
+orange
+
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+kiwi * false
+const sum = (a, b) => a + b;
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+function addNumbers(a, b) { return a + b; }
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+57 - 13
+
+const squareRoot = num => Math.sqrt(num);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+orange * false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+32 * 66
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
